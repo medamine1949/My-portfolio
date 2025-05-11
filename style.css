@@ -1,0 +1,376 @@
+/* === Style général vert/blanc === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #eaffea, #ffffff);
+  color: #00331e;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* === Titre === */
+.title {
+  font-size: 2.8em;
+  text-align: center;
+  padding: 25px 0 10px;
+  color:  #fffdfd;
+  text-shadow: 2px 2px 5px rgba(16, 184, 114, 0.3);
+}
+
+/* === Menu de navigation clair === */
+.navbar {
+  background: linear-gradient(to right, #c2f0c2, #e0ffe0);
+  box-shadow: 0 2px 8px rgba(0, 100, 0, 0.1);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 12px 0;
+  gap: 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #004d00;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  background-color: #aaffaa;
+  color: #002200;
+  box-shadow: 0 2px 6px rgba(0, 80, 0, 0.3);
+}
+
+/* === À propos === */
+#apropos {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f6fff6;
+}
+
+#apropos h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #006600;
+}
+
+#apropos p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  font-size: 18px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.socials img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.2);
+}
+
+.socials img:hover {
+  transform: scale(1.1);
+}
+
+/* === Section Accueil === */
+#accueil {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#accueil h2 {
+  font-size: 24px;
+  color: #007700;
+  margin-bottom: 10px;
+}
+
+#accueil p {
+  font-size: 17px;
+  max-width: 700px;
+  margin: 0 auto 25px;
+}
+
+.image-dynamique {
+  margin-top: 20px;
+}
+
+.image-dynamique img {
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 100, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.image-dynamique img:hover {
+  transform: scale(1.03);
+}
+
+/* === Pied de page === */
+footer {
+  background-color: #d4fcd4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #004d00;
+  border-top: 1px solid #99ff99;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #dfffdf, #eaffea);
+  color: #003300;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 20px 0;
+  color: #006600;
+  text-shadow: 1px 1px 2px rgba(0, 100, 0, 0.3);
+}
+
+/* === Menu de navigation clair === */
+.navbar {
+  background: linear-gradient(to right, #b2f2b2, #d6fcd6);
+  box-shadow: 0 2px 8px rgba(0, 100, 0, 0.2);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #004d00;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 18px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.menu a:hover {
+  background-color: #aaffaa;
+  color: #003300;
+  box-shadow: 0 2px 5px rgba(0, 100, 0, 0.3);
+}
+
+/* === Section du menu === */
+.menu-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 26px;
+  color: #006600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #009900;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #66cc66 transparent;
+}
+
+.menu-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.menu-row::-webkit-scrollbar-thumb {
+  background-color: #66cc66;
+  border-radius: 4px;
+}
+
+.dish {
+  min-width: 220px;
+  background-color: #f0fff0;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 128, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s;
+  color: #004d00;
+}
+
+.dish:hover {
+  transform: translateY(-5px);
+  background-color: #eaffea;
+}
+
+.dish img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 150, 0, 0.2);
+}
+
+.dish p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #004d00;
+}
+
+/* === Pied de page clair === */
+footer {
+  background-color: #00000002;
+  color: #006600;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #99ff99;
+}
+/* === Style général vert/blanc === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #eaffea, #ffffff);
+  color: #003300;
+  line-height: 1.6;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: none;
+  z-index: -1;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* === Titre === */
+.title {
+  font-size: 2.8em;
+  text-align: center;
+  padding: 25px 0 10px;
+  color: #006600;
+  text-shadow: 2px 2px 5px rgba(0, 80, 0, 0.3);
+}
+
+/* === Menu de navigation clair (pages autres que index) === */
+.navbar {
+  background: #ffffff;
+  border-bottom: 2px solid #aaffaa;
+  box-shadow: 0 1px 6px rgba(0, 80, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #006600;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #c0f0c0;
+  color: #003300;
+  box-shadow: 0 2px 6px rgba(0, 100, 0, 0.2);
+}
+
+/* === Pied de page === */
+footer {
+  background-color: #d4fcd4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #004d00;
+  border-top: 1px solid #99ff99;
+}
+
+/* === Image de fond sous le paragraphe d'accueil === */
+#accueil {
+  padding: 60px 20px;
+  text-align: center;
+  background: url('Shoelifer_-restaurants-à-Casablanca3.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #003300;
+  position: relative;
+  z-index: 1;
+}
+
+#accueil::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+  border-radius: 0;
+}
+
+
